@@ -1,63 +1,27 @@
-Create iOS / Android application with this specification:
+# Task Suitmedia for Kampus Merdeka
+## Image
 
-If you use iOS native development, use Swift version 5.0 with UIKit and minimum iOS version 14.0.
+## First Screen
+![first-screen](https://github.com/rizkinp/tes-suitmedia/assets/103366502/f30786da-0ce7-4bc0-9a1a-9a2210888731)
 
-If you use Android native development, use min SDK 19, target SDK 31.
+## First Screen when Polindrome 
+![first-screen-when-polindrome](https://github.com/rizkinp/tes-suitmedia/assets/103366502/b3c44131-c19c-44ee-b264-d801a8e4b486)
 
-If you use Flutter framework, use Flutter version 3.10.5 or latest.
+## First Screen when its not a Polindrome
+![first-screen-when-not-polindrome](https://github.com/rizkinp/tes-suitmedia/assets/103366502/7fafa27f-ad2c-42ec-ac54-3b92f3d85440)
 
- 
+## First Screen when Input Polindrome is empty
+![first-screen-when-empty-on-polindrome](https://github.com/rizkinp/tes-suitmedia/assets/103366502/5149f73e-5d69-4b73-9fad-bd83d364241a)
 
-1. This application has 3 screens.
+## First screen when Empty input on Name
+![first-screen-when-empty-on-name](https://github.com/rizkinp/tes-suitmedia/assets/103366502/d918b079-9b79-4de2-8f24-8f46b0e28735)
 
-2. First Screen
+## Second Screen
+![second-screen](https://github.com/rizkinp/tes-suitmedia/assets/103366502/60a5a3b5-e547-43cc-830e-47ea98664653)
 
-a. It has two inputTexts and two buttons.
+## Third Screen
+![third-screen](https://github.com/rizkinp/tes-suitmedia/assets/103366502/9bf59915-2634-45b3-b752-41818aa1db45)
 
-b. One inputText for name input and the other for input sentence text, to check whether the sentence is palindrome or not.
+## Second Screen when It showing Item from third screen on List View
+![second-screen-showing-item-on-third-screen](https://github.com/rizkinp/tes-suitmedia/assets/103366502/4cc27411-2c23-4420-b04d-e78874a97f22)
 
-Example :
-
-e.g isPalindrome(“kasur rusak”) -> true
-
-e.g isPalindrome(“step on no pets”) -> true
-
-e.g isPalindrome(“put it up”) -> true
-
-e.g isPalindrome(“suitmedia”) -> false
-
-c. A button with a “Check” title below the inputTexts
-
-d. Show as dialog with message “isPalindrome” if it’s palindrome and message “not   palindrome” if it’s not palindrome when clicking the button check
-
-e. And a button with a “Next” title below the Check Button.
-
-f. Go to the Second Screen when clicking the Next button.
-
-3. Second Screen
-
-a. It has a static “Welcome” text label/textview
-
-b. And it has two dynamic labels / textviews for the show name from the first screen and the other one is the Selected User Name label.
-
-c. It has a button “Choose a User”.
-
-d. Action click button “Choose a User” for goto third screen.
-
-4. Third Screen
-
-a. It has a List / Table view of Users
-
-b. Collect data from api from regres.in with email, first_name, last_name & avatar
-
-c. Add a pull to refresh and load the next page when scrolling to the bottom of the list, and prepare an empty state if data is empty. You can use the API with adding parameter page & per_page to get next page data.
-
-d. When a User on an item list is clicked, the Selected User Name label in “Second Screen” will be replaced by the selected User’s name (don’t create a new screen, just continue the current screen).
-
-5. For illustration wireframe design you can see it on the next page.
-
-6. Send your repository link, screenshot and apk (android).
-
-You can login using figma to look the prototype and have the assets
-
-https://www.figma.com/file/0QV3L03QMWI3p6g2DE97x9/KM-Test?node-id=0%3A1
