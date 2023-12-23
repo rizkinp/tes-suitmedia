@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_first"
+    tools:context=".MainActivity">
+
+    <!-- Image Profile -->
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_photo"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Name EditText -->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/bg_edit_text"
+        android:hint="Name"/>
+
+    <!-- Polindrome EditText -->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edPolindrome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/bg_edit_text"
+        android:hint="Polindrome"/>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <!-- Polindrome Button -->
+        <Button
+            android:id="@+id/btnCheckPolindrome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHECK"
+            android:backgroundTint="@color/primary"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"/>
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/btnNextPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primary"
+            android:text="NEXT"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

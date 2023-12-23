@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- initialize Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Welcome, "
+        android:textSize="20sp" />
+
+<!--    textview Name and replace with name in first screen-->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp" />
+
+<!--    Text view selected name and will be replace from thirdscreen-->
+    <TextView
+        android:id="@+id/tvSelectedName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="Selected User Name"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+<!--    button choose user-->
+    <Button
+        android:id="@+id/btnChooseUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Choose a User"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
