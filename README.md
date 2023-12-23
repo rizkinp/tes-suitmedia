@@ -1,4 +1,5 @@
 # Task Suitmedia for Kampus Merdeka
+## Using kotlin and Android Studio for Development
 ## Image
 
 ## First Screen
